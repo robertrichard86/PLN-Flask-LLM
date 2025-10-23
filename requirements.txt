@@ -1,0 +1,8 @@
+flask
+flask-cors
+requests
+gunicorn
+# se for usar localmente o transformers:
+transformers>=4.30.0
+torch>=1.13.0   # ou accelerate + bitsandbytes se for otimizar
+sentencepiece  # se usar modelos que precisam
